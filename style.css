@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+
+body {
+    height: 100vh;
+    background-color: rgb(227, 227, 227);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav {
+    display: flex;
+    gap: 20px;
+}
+
+nav a {
+    border: 1px solid;
+    font-size: 30px;
+    background-color: rgb(244, 138, 81);
+    padding: 10px 20px;
+    border-radius: 16px;
+    color: rgb(0, 0, 0);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    transition-duration: 0.8s;
+    /* transition-delay: 1s; */
+    /* transition-timing-function:cubic-bezier(0.215, 0.610, 0.355, 1); */
+}
+
+nav a:hover {
+    background-color: rgb(255, 219, 172);
+    box-shadow: 0px 3px 3px rgba(255, 0, 0, 0.2);
+
+    /* padding: 15px 30px; */
+
+    /* transform: scale(6) translate(10px) rotate(999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999deg); */
+    /* transform: rotate(999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999deg); */
+    /* transform: translate(10px); */
+    transform: rotate(-80deg);
+    transform-origin: 90% 90%;
+}
+
+div {
+    background-image: url(./log-in.png);
+}
